@@ -4,11 +4,11 @@ Exports assets as a VectorDrawable for Android. Say goodbye to a bajillion asset
 
 ![screenshot](img/screenshot1.png)
 
-Supports [VectorDrawable] as well as [vector-compat].
+Supports [VectorDrawable] as well as the [VectorDrawableCompat](https://medium.com/@chrisbanes/appcompat-v23-2-age-of-the-vectors-91cbafa87c88).
 
 ## Installing Plugins
 ### The conventional way:
-1. [Download the ZIP file with the Measure](https://github.com/jacobmoncur/SketchVectorDrawable/archive/master.zip)
+1. [Download the ZIP file of master](https://github.com/ChaitanyaPramod/SketchVectorDrawable/archive/master.zip)
 2. Copy the contents to the plugin folder (Open up Sketch, and go to `Plugins` › `Reveal Plugins Folder…` to open it.)
 
 ### The quickest way:
@@ -35,4 +35,3 @@ _NOTE: If your Mac has not installed GitHub client, You need to install [GitHub 
 [svg2android]:https://github.com/inloop/svg2android
 [sketch-export-assets]:https://github.com/geertwille/sketch-export-assets
 [VectorDrawable]:https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html
-[vector-compat]:https://github.com/wnafee/vector-compat
