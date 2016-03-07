@@ -289,7 +289,8 @@ function parseFile(inputXml) {
     //XML Vector start
     generatedOutput = '<?xml version="1.0" encoding="utf-8"?>\n';
     generatedOutput += '<vector xmlns:android="http://schemas.android.com/apk/res/android"\n';
-    generatedOutput += INDENT + 'xmlns:app="http://schemas.android.com/apk/res-auto"\n';
+    generatedOutput += INDENT + 'xmlns:tools="http://schemas.android.com/tools"\n';
+    generatedOutput += INDENT + 'tools:ignore="NewApi"\n';
     generatedOutput += INDENT + 'android:width="{0}dp"\n'.f(width);
     generatedOutput += INDENT + 'android:height="{0}dp"\n'.f(height);
     generatedOutput += INDENT + 'android:viewportWidth="{0}"\n'.f(width);
