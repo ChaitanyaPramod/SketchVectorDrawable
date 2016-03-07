@@ -390,11 +390,6 @@ function generateAttr(name, val, groupLevel, def, end) {
     return INDENT.repeat(groupLevel + 2) + 'android:{0}="{1}"{2}\n'.f(name, val, end ? ' />' : '');
 }
 
-function generateCompatAttr(name, val, groupLevel, def, end) {
-    if (typeof val === "undefined" || val == def) return "";
-    return INDENT.repeat(groupLevel + 2) + 'app:{0}="{1}"{2}\n'.f(name, val, end ? ' />' : '');
-}
-
 function wordwrap(str, width, brk, cut) {
     brk = brk || '\n';
     width = width || 75;
