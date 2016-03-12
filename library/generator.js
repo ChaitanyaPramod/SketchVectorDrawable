@@ -328,6 +328,7 @@ function parseFile(inputXml) {
 
     //XML Vector end
     generatedOutput += '</vector>';
+    generatedOutput += '\n';
 
     //SVG must contain path(s)
     if (pathsParsedCount == 0) {
